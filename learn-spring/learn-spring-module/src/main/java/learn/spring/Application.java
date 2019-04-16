@@ -16,9 +16,9 @@ public class Application {
      * 常规
      * @param args
      */
-//    public static void main(String[] args){
-//        SpringApplication.run(Application.class, args);
-//    }
+    public static void main(String[] args){
+        SpringApplication.run(Application.class, args);
+    }
     /**
      * 方式2
      */
@@ -33,12 +33,12 @@ public class Application {
 //        springApplication.run(args);
 //    }
 
-    public static void main(String[] args){
-
-        SpringApplication springApplication = new SpringApplication(Application.class);
-        springApplication.setWebEnvironment(false);
-        springApplication.run(args);
-    }
+//    public static void main(String[] args){
+//
+//        SpringApplication springApplication = new SpringApplication(Application.class);
+//        springApplication.setWebEnvironment(false);
+//        springApplication.run(args);
+//    }
 
     @GetMapping("/hello")
     public String getHello(){
