@@ -7,7 +7,7 @@ import org.springframework.context.ApplicationContextAware;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
-
+//https://www.cnblogs.com/zrtqsk/p/3735273.html
 public class BeanLifecycle implements InitializingBean, DisposableBean
         , BeanFactoryAware, BeanNameAware, ApplicationContextAware {
 
