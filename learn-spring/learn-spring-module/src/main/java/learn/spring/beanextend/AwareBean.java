@@ -9,7 +9,7 @@ import org.springframework.context.ApplicationContextAware;
 
 public class AwareBean implements BeanNameAware, BeanFactoryAware, ApplicationContextAware {
 
-    private String                     beanName;
+    private String beanName;
 
     private ApplicationContext        applicationContext;
 

@@ -1,7 +1,5 @@
 package learn.spring.environment;
 
-import learn.spring.portal.Student;
-import org.springframework.beans.factory.config.PropertiesFactoryBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.env.Environment;

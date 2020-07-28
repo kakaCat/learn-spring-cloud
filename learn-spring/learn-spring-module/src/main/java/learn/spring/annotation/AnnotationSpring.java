@@ -9,6 +9,8 @@ public class AnnotationSpring {
         AnnotationConfigApplicationContext ctx =
                 new AnnotationConfigApplicationContext();
         ctx.register(AppConfig.class);
+        ctx.register(A.class);
+        ctx.register(B.class);
         ctx.refresh();
         AnnUser annUser = (AnnUser)ctx.getBean("annUser");
         System.out.println(annUser.getHello());

@@ -2,7 +2,6 @@ package learn.spring.getBean;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
-import org.springframework.web.context.support.WebApplicationContextUtils;
 
 public class FindBean {
 

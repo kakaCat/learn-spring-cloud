@@ -1,6 +1,5 @@
 package learn.spring.FactoryPostProcessor;
 
-import learn.spring.portal.Student;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

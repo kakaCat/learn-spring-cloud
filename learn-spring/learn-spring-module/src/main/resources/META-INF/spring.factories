@@ -1,0 +1,3 @@
+learn.base.classloader.SPIService=\
+learn.base.classloader.serviceloader.SpiSerivice1Impl,\
+learn.base.classloader.serviceloader.SpiSerivice2Impl

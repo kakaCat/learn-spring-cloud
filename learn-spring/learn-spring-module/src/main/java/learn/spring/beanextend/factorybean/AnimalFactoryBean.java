@@ -5,7 +5,7 @@ import org.springframework.beans.factory.FactoryBean;
 public class AnimalFactoryBean implements FactoryBean<Animal> {
 
 
-    private String    animal;
+    private String animal;
 
     @Override
     public Animal getObject() throws Exception {

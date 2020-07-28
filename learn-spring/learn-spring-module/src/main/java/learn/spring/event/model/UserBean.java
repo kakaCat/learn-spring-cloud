@@ -2,7 +2,8 @@ package learn.spring.event.model;
 
 import lombok.Data;
 
-@Data
+
+
 public class UserBean {
 
 
@@ -11,4 +12,20 @@ public class UserBean {
     //密码
     private String password;
 
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }

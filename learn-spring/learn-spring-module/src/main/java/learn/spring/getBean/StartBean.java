@@ -2,10 +2,7 @@ package learn.spring.getBean;
 
 import learn.spring.annotation.AnnUser;
 import learn.spring.annotation.AppConfig;
-import learn.spring.portal.Student;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * @ClassName StartBean

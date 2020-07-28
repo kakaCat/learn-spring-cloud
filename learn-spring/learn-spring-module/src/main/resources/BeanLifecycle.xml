@@ -27,5 +27,6 @@
     </bean>
 
 <!--    <bean id="postProcessor" class="com.test.spring.PostProcessor"/>-->
+    <bean id="beanDome" class="learn.spring.bean.dome.BeanDome"/>
 
 </beans>
