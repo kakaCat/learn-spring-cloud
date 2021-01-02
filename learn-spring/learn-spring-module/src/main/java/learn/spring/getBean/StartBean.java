@@ -20,7 +20,8 @@ public class StartBean {
         ctx.register(AppConfig.class);
         ctx.refresh();
         AnnUser annUser = (AnnUser)ctx.getBean("annUser");
-        System.out.println(annUser.getHello());
+        annUser.sayA();
+        System.out.println();
 
         ctx.close();
         System.out.println(annUser.toString());

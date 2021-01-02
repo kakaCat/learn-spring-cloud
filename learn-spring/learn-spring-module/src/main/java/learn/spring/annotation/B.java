@@ -15,4 +15,12 @@ public class B {
 
     private String nameB;
 
+
+    public void sayB(){
+
+        System.out.println("B");
+
+    }
+
+
 }

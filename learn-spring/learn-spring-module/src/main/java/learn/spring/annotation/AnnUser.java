@@ -1,6 +1,18 @@
 package learn.spring.annotation;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class AnnUser {
+
+
+    @Autowired
+    private B b;
+
+
+    public void sayA(){
+        b.sayB();
+    }
+
 
     public String getHello(){
         return "Hello";
